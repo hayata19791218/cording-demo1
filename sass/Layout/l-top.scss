@@ -1,0 +1,180 @@
+.l-top-header{
+    padding-top: 60px;
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+    @media screen and (max-width:1023px){
+        width: 95%;
+    }
+    &__title{
+        width: 160px;
+        height:auto;
+    }
+    &__first-view{
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+    }
+}
+.l-top-main{
+    margin-top: 60px;
+    &__index-background{
+        background-color:#F5F5F5;
+        padding: 60px 0;
+        width: 800px;
+        margin-left:auto;
+        margin-right:auto;
+        @media screen and (max-width:1023px){
+            width: 90%;
+        }
+    }
+    &__index-wrap{
+        width: 600px;
+        margin-left:auto;
+        margin-right:auto;
+        border:1px solid #000;
+        margin-top: 30px;
+        padding: 30px;
+        @media screen and (max-width:1023px){
+            width: 72%;
+        }
+        @media screen and (max-width:767px){
+            width: 70%;
+        }
+    }
+    &__index-title{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__index-lists{
+        margin-top: 10px;
+        width: 410px;
+        margin-left:auto;
+        margin-right:auto;
+        @media screen and (max-width:767px){
+            width: 100%;
+        }
+        li{
+            margin-bottom: 20px;
+            margin-left: 16px;
+            font-size: 14px;
+            list-style-type: decimal;
+            @media screen and (max-width:767px){
+                line-height:1.5em;
+            }
+        }
+        li:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__index-images{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        width: 800px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 60px;
+        @media screen and (max-width:1023px){
+            width: 90%;
+            justify-content:flex-start;
+            flex-direction:column;
+        }
+    }
+    &__index-image{
+        display: block;
+        margin-bottom: 15px;
+        width: 392px;
+        height:auto;
+        @media screen and (max-width:1023px){
+            width: 90%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+    &__detail-wrap{
+        width: 800px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 60px;
+        padding: 60px 0px;
+        background-color:#F5F5F5;
+        @media screen and (max-width:1023px){
+            width: 90%;
+        }
+    }
+    &__detail-title{
+        font-size: 18px;
+        text-align: center;
+    }
+    &__detail-content-wrap{
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-top: 10px;
+        @media screen and (max-width:1023px){
+            justify-content:flex-start;
+            flex-direction:column;
+            width: 90%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+    &__content-img{
+        width: 270px;
+        height:auto;
+        display: block;
+    }
+    &__detail-left-block{
+        font-size: 14px;
+        margin-top: 20px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        width: 170px;
+        @media screen and (max-width:1023px){
+            width: 100%;
+        }
+        p{
+            margin-bottom: 10px;
+            line-height:1.5em;
+            font-weight: bold;
+        }
+        span{
+            display: block;
+            font-weight: normal;
+        }
+    }
+    &__detail-right-explain{
+        line-height:2em;
+        font-size: 14px;
+    }
+    &___detail-right-link{
+        text-decoration:underline;
+        display: block;
+        margin-top: 20px;
+        color:#000;
+        font-size: 14px;
+    }
+    &__detail-right-wrap{
+        width: 400px;
+        @media screen and (max-width:1023px){
+            width: 100%;
+        }
+    }
+    &__detail-center-line{
+        height: 150px;
+        width: 1px;
+        background-color:#000;
+        @media screen and (max-width:1023px){
+            width: 100%;
+            height: 1px;
+        }
+    }
+}
+.l-top-footer{
+    font-size: 10px;
+    margin-top: 115px;
+    padding-bottom: 15px;
+    text-align: center;
+}
